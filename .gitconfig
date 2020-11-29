@@ -1,0 +1,19 @@
+[user]
+	name = Roman Böhm
+	email = romanboehm@posteo.de
+[core]
+	autocrlf = input # convert CRLF to LF on commit but not the other way around
+	excludesfile = ~/.gitignore
+
+[alias]
+	fa = fetch --all
+	co = checkout
+	cor = "!f() { git fetch --all && git checkout -b $1 origin/$1; }; f" # checkout from origin
+	lb = branch -l -a # list branches
+	ci = commit -v # verbose commit (opens $EDITOR)
+	ca = commit --amend --no-edit # silently amend
+	st = status
+	ss = diff --cached # show staged changes
+	sp = diff @{1}.. # show changes introduced by last pull (only works if there actually were changes)
+	lop = log --pretty=oneline --graph
+	us = "!f() { git reset HEAD $1; }; f" # unstage specific file, or all if no arg given
