@@ -1,0 +1,8 @@
+# MacOS Finder metadata
+*.DS_Store
+
+# IntelliJ IDE folder
+.idea/
+
+# VS Code folder
+.vscode/
