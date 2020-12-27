@@ -16,4 +16,4 @@
 	ss = diff --cached # show staged changes
 	sp = diff @{1}.. # show changes introduced by last pull (only works if there actually were changes)
 	lop = log --pretty=oneline --graph
-	us = "git reset --" # unstage specific file, or all if no arg given
+	us = reset -- # unstage specific file, or all if no arg given
