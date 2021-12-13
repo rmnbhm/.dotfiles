@@ -16,3 +16,4 @@
 	ss = diff --cached # show staged changes
 	sp = diff @{1}.. # show changes introduced by last pull (only works if there actually were changes)
 	lop = log --pretty=oneline --graph
+	rb = "!f() { git rebase -i HEAD~$1; }; f" # rebase last n commits interactively
