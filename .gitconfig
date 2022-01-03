@@ -16,5 +16,5 @@
 	ss = diff --cached # show staged changes
 	sp = diff @{1}.. # show changes introduced by last pull (only works if there actually were changes)
 	lop = log --pretty=oneline --graph
-        us = rm -r --cached # unstage specific file/folder; use "*" to unstage everything
+        us = rm -r --cached # unstage specific file/folder; use "." to unstage everything
 	rb = "!f() { git rebase -i HEAD~$1; }; f" # rebase last n commits interactively
