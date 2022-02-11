@@ -6,3 +6,7 @@
 
 # VS Code folder
 .vscode/
+
+# Direnv
+.envrc
+.env
