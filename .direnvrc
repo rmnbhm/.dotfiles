@@ -1,0 +1,6 @@
+# Usage: locate_java
+locate_java() {
+  # `-maxdepth 1` simplifies handling a second arg to specify the distribution.
+  # E.g. `locate_java 8 fx` to obtain a JDK 8 with JavaFX bundled.
+  echo "$(find ~/.sdkman/candidates/java/ -maxdepth 1 -type d -iname "$1*$2*")"
+}
