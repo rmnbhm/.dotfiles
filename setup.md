@@ -7,10 +7,12 @@
 * oh-my-zsh ("simple" theme, zsh-autosuggestions)
 * Chrome
 * sdkman
+* JDKs
 * mvnd
 * dotfiles
 * direnv
 * VS Code
+* IntelliJ
 
 # OS Specifics
 ## Linux
@@ -26,3 +28,4 @@
 * Amphetamine
 * Docker Desktop
 * Google Drive
+* rsync
