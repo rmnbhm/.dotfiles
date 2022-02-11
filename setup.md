@@ -13,6 +13,7 @@
 * direnv
 * VS Code
 * IntelliJ
+* copy scripts from gists
 
 # OS Specifics
 ## Linux
