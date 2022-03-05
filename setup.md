@@ -5,7 +5,6 @@
 * rg
 * fd
 * oh-my-zsh ("simple" theme, zsh-autosuggestions)
-* Chrome
 * sdkman
 * JDKs
 * mvnd
@@ -14,6 +13,8 @@
 * VS Code
 * IntelliJ
 * copy scripts from gists
+* browser
+* PW manager
 
 # OS Specifics
 ## Linux
