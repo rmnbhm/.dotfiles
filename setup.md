@@ -15,6 +15,7 @@
 * copy scripts from gists
 * browser
 * PW manager
+* Joplin
 
 # OS Specifics
 ## Linux
