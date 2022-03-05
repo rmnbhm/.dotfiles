@@ -4,11 +4,14 @@
 * vim
 * rg
 * fd
-* oh-my-zsh ("simple" theme, zsh-autosuggestions)
+* oh-my-zsh
+  * "simple" theme
+  * zsh-autosuggestions
 * sdkman
 * JDKs
 * mvnd
 * dotfiles
+  * .gitconfig user/email 
 * direnv
 * VS Code
 * IntelliJ
