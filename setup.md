@@ -22,6 +22,8 @@
 
 # OS Specifics
 ## Linux
+* powertop
+* tlp
 * zsh
 * Docker
 * Insync (for Google Drive)
