@@ -28,7 +28,5 @@
 * GNU coreutils (incl. correct manpath)
 * Rectangle
 * Snap
-* Amphetamine
 * Docker Desktop
 * Google Drive
-* rsync
