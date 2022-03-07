@@ -27,6 +27,7 @@
 * zsh
 * Docker
 * Insync (for Google Drive)
+* touchegg
 ## MacOS
 * xcode commandline
 * Homebrew
