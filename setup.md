@@ -29,10 +29,12 @@
 * Insync (for Google Drive)
 * touchegg
 ## MacOS
-* xcode commandline
 * Homebrew
+* envsubst (gettext)
+  * use fqn to envsubst bin in .zshrc
 * GNU coreutils (incl. correct manpath)
 * Rectangle
 * Snap
 * Docker Desktop
 * Google Drive
+* Amphetamine
