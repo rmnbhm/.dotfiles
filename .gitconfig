@@ -18,3 +18,5 @@
 	lop = log --pretty=oneline --graph
         us = rm -r --cached # unstage specific file/folder; use "." to unstage everything
 	rb = "!f() { git rebase -i HEAD~$1; }; f" # rebase last n commits interactively
+[init]
+        defaultBranch = main
