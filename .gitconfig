@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input # convert CRLF to LF on commit but not the other way around
 	excludesfile = ~/.gitignore
+	hooksPath = ~/.git-templates/hooks
 
 [alias]
 	fa = fetch --all
@@ -16,7 +17,8 @@
 	ss = diff --cached # show staged changes
 	sp = diff @{1}.. # show changes introduced by last pull (only works if there actually were changes)
 	lop = log --pretty=oneline --graph
-        us = rm -r --cached # unstage specific file/folder; use "." to unstage everything
+	rs = restore # discard changes for specific file/dir
+    	rss = restore --staged # unstage specific file/dir
 	rb = "!f() { git rebase -i HEAD~$1; }; f" # rebase last n commits interactively
 [init]
         defaultBranch = main
