@@ -22,3 +22,5 @@
 	rb = "!f() { git rebase -i HEAD~$1; }; f" # rebase last n commits interactively
 [init]
         defaultBranch = main
+[pull]
+	rebase = true
