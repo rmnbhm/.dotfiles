@@ -1,7 +1,0 @@
-# Add to .bashrc or .zshrc by appending
-#    [ -r "$HOME/.aliases" ] && source "$HOME/.aliases"
-# to the respective config file.
-alias ls='ls -G'
-alias ll='ls -lhAH'
-alias rsync='rsync --archive --partial --progress'
-alias code='code -n'
